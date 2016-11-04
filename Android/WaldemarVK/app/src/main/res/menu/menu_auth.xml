@@ -1,10 +1,34 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.alkihuri.waldemarvk.auth">
+    tools:context=".MainActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title= "Отправить Сообщение"
+        android:onClick="sendMsgClick"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_cat1"
+        android:orderInCategory="100"
+        android:title="Выбор друга"
+        android:onClick="selectFriendclick"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/action_cat2"
+        android:orderInCategory="100"
+        android:onClick="LastChatClick"
+        android:title="Выбрать по последнему чату"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_cat3"
+        android:orderInCategory="100"
+        android:title="Выбор друга"
+        android:onClick="selectFriendclick"
+        app:showAsAction="never"/>
+
+
 </menu>
