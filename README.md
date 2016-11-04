@@ -1,2 +1,2 @@
 # WaldemarVK
-Khui
+Kurwa
