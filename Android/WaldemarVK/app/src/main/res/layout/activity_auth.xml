@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="#000000"
     tools:context="com.example.alkihuri.waldemarvk.auth">
 
     <android.support.design.widget.FloatingActionButton
@@ -18,7 +19,7 @@
 
     <TextView
         android:id="@+id/final_text"
-        android:layout_width="305dp"
+        android:layout_width="match_parent"
         android:layout_height="42dp" >
     </TextView>
 
@@ -30,11 +31,12 @@
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <WebView
-        android:layout_height="340dp"
+        android:layout_height="match_parent"
         android:id="@+id/web"
         android:layout_width="match_parent"
         android:layout_gravity="bottom"
-        tools:layout_gravity="end">
+        tools:layout_gravity="end"
+        android:visibility="visible">
 
         <EditText
             android:layout_width="match_parent"
@@ -45,6 +47,8 @@
             android:layout_x="346dp"
             android:layout_y="450dp"
             android:id="@+id/editText" />
+
+
     </WebView>
 
 </android.support.design.widget.CoordinatorLayout>

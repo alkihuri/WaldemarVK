@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title= "Отправить Сообщение"
+        android:title= "Начать сеанс"
         android:onClick="sendMsgClick"
         app:showAsAction="never"/>
 
@@ -17,18 +17,8 @@
         app:showAsAction="never"/>
 
 
-    <item
-        android:id="@+id/action_cat2"
-        android:orderInCategory="100"
-        android:onClick="LastChatClick"
-        android:title="Выбрать по последнему чату"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/action_cat3"
-        android:orderInCategory="100"
-        android:title="Выбор друга"
-        android:onClick="selectFriendclick"
-        app:showAsAction="never"/>
+
+     
 
 
 </menu>
