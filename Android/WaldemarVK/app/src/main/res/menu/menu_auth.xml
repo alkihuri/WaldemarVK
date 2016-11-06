@@ -12,8 +12,20 @@
     <item
         android:id="@+id/action_cat1"
         android:orderInCategory="100"
-        android:title="Выбор друга"
-        android:onClick="selectFriendclick"
+        android:title="Выбрать по ID"
+        android:onClick="byidclick"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_cat2"
+        android:orderInCategory="100"
+        android:title="Выбрать друга"
+        android:onClick="selFclick"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_key"
+        android:orderInCategory="100"
+        android:title="Ввести ключ"
+        android:onClick="getkeyclick"
         app:showAsAction="never"/>
 
 
